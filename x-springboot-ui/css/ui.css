@@ -1,0 +1,42 @@
+#img-div{
+    padding-left: 450px;
+}
+
+.layui-input-block{
+    padding-left: 100px;
+}
+
+#sqlInput,#sqlPreview{
+    border-radius: 10px;
+    border: 1px solid #D2D2D2;
+
+}
+
+#sql-div{
+    padding-left: 180px;
+}
+
+.grid-btn{
+    padding-left: 580px;
+}
+.layui-input, .layui-textarea{
+    width: 88% !important;
+    align-content: center;
+}
+#container{
+    width: 100px;
+    height: 100px;
+}
+#href-div{
+z-index: 100;
+}
+.layui-input-block{
+    padding-left: 65px;
+}
+.layui-form-checkbox span{
+    font-size: 21px!important;
+}
+.panel{
+    width: 100% !important;
+    height: 100% !important;
+}

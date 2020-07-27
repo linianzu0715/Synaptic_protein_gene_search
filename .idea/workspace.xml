@@ -1,0 +1,1078 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5f9cb079-8e22-4341-abeb-b461561d706a" name="Default" comment="frist commits">
+      <change afterPath="$PROJECT_DIR$/doc/start.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/db.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/doc/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/updateLog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/20190419153826.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/20190422163331.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/20190422163826.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suke/czx/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suke/czx/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suke/czx/authentication/handler/CustomAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suke/czx/authentication/handler/CustomAuthenticationSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suke/czx/interceptor/AuthenticationTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suke/czx/interceptor/AuthenticationTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suke/czx/interceptor/ValidateCodeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suke/czx/interceptor/ValidateCodeFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suke/czx/modules/daily/controller/TbDailyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suke/czx/modules/daily/entity/TbDaily.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suke/czx/modules/daily/mapper/TbDailyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suke/czx/modules/daily/service/TbDailyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suke/czx/modules/daily/service/impl/TbDailyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/daily/TbDailyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x-springboot-ui/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/x-springboot-ui/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x-springboot-ui/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/x-springboot-ui/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x-springboot-ui/js/modules/daily/tbdaily.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x-springboot-ui/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/x-springboot-ui/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x-springboot-ui/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/x-springboot-ui/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x-springboot-ui/modules/daily/tbdaily.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x-springboot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/x-springboot.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="745b7a55-a261-4359-81ad-049271cd7ace" />
+    </checked>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AuthenticationTokenFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/interceptor/AuthenticationTokenFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="950">
+              <caret line="59" column="104" selection-start-line="59" selection-start-column="69" selection-end-line="59" selection-end-column="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginUser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/common/annotation/LoginUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysLog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/common/annotation/SysLog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysLogAspect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/common/aspect/SysLogAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="975">
+              <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SneakyThrows.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar!/lombok/SneakyThrows.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fullall.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/x-springboot-ui/fullall.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+              <folding>
+                <element signature="n#style#0;n#i#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#4;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#5;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#6;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#7;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Data.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar!/lombok/Data.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>login</find>
+      <find>log</find>
+      <find>../../</find>
+      <find>.href</find>
+      <find>jquer</find>
+      <find>80</find>
+      <find>reload</find>
+      <find>ppiSqlMap</find>
+      <find>temp</find>
+      <find>showCol</find>
+      <find>sqlInput</find>
+      <find>allColumn</find>
+      <find>conditionSql</find>
+      <find>sql</find>
+      <find>layer.alert</find>
+      <find>brainRegion</find>
+      <find>console.log</find>
+      <find>tempCol</find>
+      <find>addSql</find>
+      <find>colList</find>
+      <find>getInfo</find>
+      <find>initSql</find>
+      <find>fullall</find>
+      <find>title</find>
+      <find>AuthIgnore</find>
+      <find>LoginUser</find>
+      <find>1L</find>
+      <find>queryAllPerms</find>
+      <find>SysLog</find>
+      <find>saveSysLog</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Paper</replace>
+      <replace>Fullall</replace>
+      <replace>/x-springboot-ui/</replace>
+      <replace>../../../x-springboot-ui</replace>
+      <replace>../../js</replace>
+      <replace>ppiData</replace>
+      <replace>.append(</replace>
+      <replace>);</replace>
+      <replace>realTitle</replace>
+      <replace>));</replace>
+      <replace>if</replace>
+      <replace>abList</replace>
+      <replace>server</replace>
+      <replace>7777</replace>
+      <replace>70</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\homework\X-SpringBoot-master\x-springboot-ui\src</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/suke/czx/modules/student/controller/SysStudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suke/czx/modules/student/service/impl/SysStudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suke/czx/common/utils/JDBCUtils.java" />
+        <option value="$PROJECT_DIR$/x-springboot-ui/modules/person/tbperson.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suke/czx/modules/sqlite/service/PaperService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suke/czx/modules/sqlite/controller/PaperController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suke/czx/modules/sqlite/entity/Fullall.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suke/czx/modules/person/service/TbPersonService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suke/czx/modules/sqlite/entity/PPI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suke/czx/modules/person/controller/TbPersonController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/banner.txt" />
+        <option value="$PROJECT_DIR$/x-springboot-ui/main.html" />
+        <option value="$PROJECT_DIR$/x-springboot-ui/modules/sqlite/paper.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suke/czx/modules/sqlite/service/impl/PaperServiceImpl.java" />
+        <option value="$PROJECT_DIR$/x-springboot-ui/js/modules/sqlite/paper.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suke/czx/interceptor/ValidateCodeFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suke/czx/modules/sqlite/service/FullallService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suke/czx/modules/person/service/impl/TbPersonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/x-springboot-ui/modules/sqlite/fullall.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/aff93cc3-7a73-4daf-ae53-d898ffb10440/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/745b7a55-a261-4359-81ad-049271cd7ace/console_4.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suke/czx/common/utils/CmdUtils.java" />
+        <option value="$PROJECT_DIR$/doc/redis.bat" />
+        <option value="$PROJECT_DIR$/doc/nginx.bat" />
+        <option value="$PROJECT_DIR$/server/test.bat" />
+        <option value="$PROJECT_DIR$/server/nginx.bat" />
+        <option value="$PROJECT_DIR$/src/test/java/com/suke/czx/StreamGobbler.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/suke/czx/CmdTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suke/czx/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suke/czx/common/utils/GenUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suke/czx/authentication/WebSecurityConfigurer.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suke/czx/common/utils/ServerUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suke/czx/authentication/handler/CustomAuthenticationSuccessHandler.java" />
+        <option value="$PROJECT_DIR$/x-springboot-ui/js/common.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suke/czx/interceptor/AuthenticationTokenFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suke/czx/authentication/handler/TokenAuthenticationFailHandler.java" />
+        <option value="$PROJECT_DIR$/doc/nginx.conf" />
+        <option value="$PROJECT_DIR$/server/nginx/conf/nginx.conf" />
+        <option value="$PROJECT_DIR$/x-springboot-ui/modules/sqlite/plugin-snapshot-test.html" />
+        <option value="$PROJECT_DIR$/x-springboot-ui/css/ui.css" />
+        <option value="$PROJECT_DIR$/x-springboot-ui/js/modules/sqlite/tbperson.js" />
+        <option value="$PROJECT_DIR$/x-springboot-ui/plugin-snapshot-test.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/aff93cc3-7a73-4daf-ae53-d898ffb10440/console_2.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/96f05d45-1219-4d73-86dd-0e62cd3b569b/console_1.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suke/czx/modules/sqlite/service/impl/FullallServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suke/czx/modules/sqlite/controller/FullallController.java" />
+        <option value="$PROJECT_DIR$/x-springboot-ui/js/modules/sqlite/fullall.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suke/czx/common/aspect/SysLogAspect.java" />
+        <option value="$PROJECT_DIR$/x-springboot-ui/fullall.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="x-springboot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="2179" />
+    <option name="height" value="1459" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="x-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="X-SpringBoot-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/homework/X-SpringBoot-master/x-springboot-ui/js/modules/sqlite/fullall.js" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)&#10;MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\homework\X-SpringBoot-master\x-springboot-ui\images" />
+      <recent name="F:\homework\X-SpringBoot-master\x-springboot-ui" />
+      <recent name="F:\homework\X-SpringBoot-master\x-springboot-ui\js\modules\sqlite" />
+      <recent name="F:\homework\X-SpringBoot-master\x-springboot-ui\plugins" />
+      <recent name="D:\homework\X-SpringBoot-master\server" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.suke.czx.modules.sqlite.entity" />
+      <recent name="com.suke.czx.common.utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\homework\X-SpringBoot-master\doc" />
+      <recent name="D:\homework\X-SpringBoot-master\src\main\resources\static\sqlite" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="ServerUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suke.czx.common.utils.ServerUtils" />
+      <module name="x-springboot" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.suke.czx.common.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="x-springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.suke.czx.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Application.ServerUtils" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ServerUtils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f9cb079-8e22-4341-abeb-b461561d706a" name="Default" comment="" />
+      <created>1590028000103</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590028000103</updated>
+      <workItem from="1590028003085" duration="9490000" />
+      <workItem from="1590045601772" duration="1207000" />
+      <workItem from="1590047190808" duration="2071000" />
+      <workItem from="1590050497664" duration="2284000" />
+      <workItem from="1590107676897" duration="3609000" />
+      <workItem from="1590367385365" duration="8235000" />
+      <workItem from="1590395629925" duration="589000" />
+      <workItem from="1590456981519" duration="594000" />
+      <workItem from="1590540093374" duration="595000" />
+      <workItem from="1590645823705" duration="7000" />
+      <workItem from="1592103099200" duration="14743000" />
+      <workItem from="1592135411797" duration="31027000" />
+      <workItem from="1592358110117" duration="21671000" />
+      <workItem from="1592467386997" duration="12275000" />
+      <workItem from="1592631083051" duration="509000" />
+      <workItem from="1592631783613" duration="3020000" />
+      <workItem from="1592873588381" duration="26261000" />
+      <workItem from="1592959602440" duration="2798000" />
+      <workItem from="1592966882570" duration="1763000" />
+      <workItem from="1592969192231" duration="1301000" />
+      <workItem from="1593234364541" duration="101000" />
+      <workItem from="1593234505178" duration="361000" />
+      <workItem from="1593652193493" duration="1041000" />
+      <workItem from="1593653946642" duration="25340000" />
+      <workItem from="1593747617592" duration="129000" />
+      <workItem from="1593747793261" duration="12500000" />
+      <workItem from="1593766746312" duration="1955000" />
+      <workItem from="1593842872833" duration="1245000" />
+      <workItem from="1593998123303" duration="17000" />
+      <workItem from="1593999829412" duration="20935000" />
+      <workItem from="1594029235574" duration="21455000" />
+      <workItem from="1594276068611" duration="1107000" />
+    </task>
+    <task id="LOCAL-00001" summary="frist commits">
+      <created>1592104378689</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592104378689</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CmdTest_start - 2020.07.03 at 13h 08m 56s.xml">
+      <configuration name="CmdTest.start" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CmdTest_start - 2020.07.03 at 13h 09m 06s.xml">
+      <configuration name="CmdTest.start" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CmdTest_start - 2020.07.03 at 13h 09m 11s.xml">
+      <configuration name="CmdTest.start" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CmdTest_start - 2020.07.03 at 13h 09m 16s.xml">
+      <configuration name="CmdTest.start" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CmdTest_start - 2020.07.03 at 13h 09m 34s.xml">
+      <configuration name="CmdTest.start" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CmdTest_start - 2020.07.03 at 13h 09m 51s.xml">
+      <configuration name="CmdTest.start" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CmdTest_start - 2020.07.03 at 13h 10m 29s.xml">
+      <configuration name="CmdTest.start" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CmdTest_start - 2020.07.03 at 14h 09m 08s.xml">
+      <configuration name="CmdTest.start" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CmdTest_start - 2020.07.03 at 14h 15m 51s.xml">
+      <configuration name="CmdTest.start" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ServerUtils_start - 2020.07.03 at 14h 17m 41s.xml">
+      <configuration name="ServerUtils.start" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="230235000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1742" height="1166" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32929292" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32929292" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50178146" side_tool="true" weight="0.3090379" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.2304038" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.23333333" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49821854" visible="true" weight="0.47521865" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3291262" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4976247" weight="0.3595724" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7141074" visible="true" weight="0.1496437" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32957244" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="8" weight="0.11876485" />
+      <window_info id="Structure" order="1" sideWeight="0.28589264" side_tool="true" weight="0.17458433" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5016611" side_tool="true" weight="0.23812352" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49643704" weight="0.16132167" />
+      <window_info anchor="bottom" id="JRebel Executor" order="14" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" x="0" y="0" width="313" height="735" id="Documentation" order="11" side_tool="true" weight="0.32999283" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="bottom" id="Database Console" order="18" sideWeight="0.4976247" weight="0.13605443" />
+      <window_info id="Image Layers" order="3" />
+      <window_info active="true" anchor="right" id="Module Dependencies" order="12" visible="true" weight="0.2767221" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Problems" order="16" />
+      <window_info anchor="right" id="Dynamic Members" order="10" weight="0.32957244" />
+      <window_info id="JRebel" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32427186" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4976247" weight="0.31098154" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="17" weight="0.3291262" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info active="true" anchor="bottom" id="JRebel Console" order="15" sideWeight="0.5035629" side_tool="true" visible="true" weight="0.5174757" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="JRebel" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3291262" />
+      <window_info anchor="bottom" id="Database Console" order="18" sideWeight="0.4976247" weight="0.42857143" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49821854" weight="0.25947523" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5016611" side_tool="true" weight="0.23812352" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50178146" side_tool="true" weight="0.3090379" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32929292" />
+      <window_info anchor="right" x="0" y="0" width="313" height="735" id="Documentation" order="11" side_tool="true" weight="0.32999283" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="8" weight="0.2624703" />
+      <window_info anchor="bottom" id="Problems" order="16" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32929292" />
+      <window_info active="true" anchor="right" id="Module Dependencies" order="12" visible="true" weight="0.2767221" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="17" weight="0.3291262" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.23333333" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.2304038" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4976247" weight="0.3595724" />
+      <window_info anchor="bottom" id="JRebel Executor" order="14" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7141074" visible="true" weight="0.3081948" />
+      <window_info active="true" anchor="bottom" id="JRebel Console" order="15" sideWeight="0.5035629" side_tool="true" visible="true" weight="0.5174757" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4976247" weight="0.31098154" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Dynamic Members" order="10" weight="0.32957244" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Structure" order="1" sideWeight="0.28589264" side_tool="true" weight="0.17458433" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32427186" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32957244" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49643704" visible="true" weight="0.40427598" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="frist commits" />
+    <option name="LAST_COMMIT_MESSAGE" value="frist commits" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suke/czx/authentication/handler/CustomAuthenticationFailHandler.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="70" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar!/lombok/Data.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/x-springboot-ui/fullall.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="34" column="161" selection-start-line="34" selection-start-column="161" selection-end-line="34" selection-end-column="161" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#4;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#5;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#6;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#7;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/x-springboot-ui/css/ui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/x-springboot-ui/plugin-snapshot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="77" column="47" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/x-springboot-ui/js/modules/sqlite/tbperson.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/modules/gen/controller/SysGenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/modules/gen/entity/GenConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/modules/app/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/modules/gen/entity/ColumnEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/modules/gen/service/impl/SysGenServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.4/commons-lang-2.4.jar!/org/apache/commons/lang/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/x-springboot-ui/modules/sqlite/fullall.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/x-springboot-ui/js/modules/sqlite/paper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-825" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/x-springboot-ui/modules/sqlite/paper.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1500" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/modules/sqlite/service/FullallService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/modules/sqlite/service/impl/FullallServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/modules/sqlite/controller/FullallController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/x-springboot-ui/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/x-springboot-ui/js/modules/sqlite/fullall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="89" column="46" lean-forward="true" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.6.RELEASE/spring-security-core-5.1.6.RELEASE.jar!/org/springframework/security/access/prepost/PreAuthorize.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.6.RELEASE/spring-security-core-5.1.6.RELEASE.jar!/org/springframework/security/access/expression/SecurityExpressionRoot.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/modules/apkversion/controller/ApkVersionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/modules/sys/controller/SysRoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1346">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/modules/sys/controller/SysMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3162">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/modules/student/controller/SysStudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-762">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/common/annotation/AuthIgnore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/4.4.5/hutool-all-4.4.5.jar!/cn/hutool/core/util/ReUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/config/AuthIgnoreConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="50" column="39" lean-forward="true" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/authentication/handler/TokenAuthenticationFailHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/authentication/handler/CustomLogoutSuccessHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/common/utils/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.0/mybatis-plus-extension-3.1.0.jar!/com/baomidou/mybatisplus/extension/service/IService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="97" column="20" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/authentication/detail/CustomUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="59" column="36" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/modules/sys/service/impl/PermissionsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="45" column="23" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/modules/sys/mapper/SysUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/sys/SysUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/authentication/handler/CustomAuthenticationSuccessHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/authentication/WebSecurityConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.6.RELEASE/spring-security-core-5.1.6.RELEASE.jar!/org/springframework/security/authentication/UsernamePasswordAuthenticationToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.6.RELEASE/spring-security-core-5.1.6.RELEASE.jar!/org/springframework/security/provisioning/MutableUser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.6.RELEASE/spring-security-core-5.1.6.RELEASE.jar!/org/springframework/security/core/userdetails/User.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.6.RELEASE/spring-security-core-5.1.6.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetails.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/interceptor/AuthenticationTokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="59" column="104" selection-start-line="59" selection-start-column="69" selection-end-line="59" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/common/annotation/LoginUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/common/annotation/SysLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar!/org/aspectj/lang/ProceedingJoinPoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.0/mybatis-plus-extension-3.1.0.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suke/czx/common/aspect/SysLogAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar!/lombok/Data.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar!/lombok/SneakyThrows.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/x-springboot-ui/fullall.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#4;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#5;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#6;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#7;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>groovy-2.5.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean install" />
+  </component>
+</project>

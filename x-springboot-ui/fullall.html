@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/ui.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="plugins/jqgrid/ui.jqgrid-bootstrap.css">
+<link rel="stylesheet" href="plugins/ztree/css/metroStyle/metroStyle.css">
+<!--<link rel="stylesheet" href="plugins/layui/css/layui.css">-->
+<link rel="stylesheet" href="plugins/layui/css/layui.css"  media="all">
+<link rel="stylesheet" href="css/main.css">
+<script src="libs/jquery.min.js"></script>
+<script src="plugins/layer/layer.js"></script>
+<script src="libs/bootstrap.min.js"></script>
+<script src="libs/vue.min.js"></script>
+<script src="plugins/jqgrid/grid.locale-cn.js"></script>
+<script src="plugins/jqgrid/jquery.jqGrid.min.js"></script>
+<script src="plugins/ztree/jquery.ztree.all.min.js"></script>
+<script src="plugins/layui/layui.js"></script>
+<script src="js/common.js"></script>
+</head>
+<body>
+<div id="app" v-cloak>
+	<div v-show="showList">
+		<div>
+			<div id="img-div">
+                <img  src="images/1111.png"/>
+			</div>
+			<div class="layui-form-item">
+                <div id="sql-div">
+                <input id="sqlInput" type="text" name="username" placeholder="请输入搜索条件,  示例: year:2002,  多个条件用逗号(;)分隔  示例: year:2002;mousename:Dlg4   条件为空可以在下方预览区自定义条件" autocomplete="off" class="layui-input"><br/>
+                    <textarea id="sqlPreview" placeholder="SQL查询语句预览" class="layui-textarea" name="desc"></textarea>
+                </div>
+                <label class="layui-form-label"></label>
+                <div class="layui-input-block">
+                    <div class="layui-unselect layui-form-checkbox layui-form-checked"><span>Compartment</span><i style="height: 30px;width: 34px" class="layui-icon layui-icon-ok"></i></div>
+                    <div class="layui-unselect layui-form-checkbox layui-form-checked"><span>PMID</span><i style="height: 30px;width: 34px" class="layui-icon layui-icon-ok"></i></div>
+                    <div class="layui-unselect layui-form-checkbox layui-form-checked"><span>Year</span><i style="height: 30px;width: 34px" class="layui-icon layui-icon-ok"></i></div>
+                    <div class="layui-unselect layui-form-checkbox layui-form-checked"><span>Paper</span><i style="height: 30px;width: 34px" class="layui-icon layui-icon-ok"></i></div>
+                    <div class="layui-unselect layui-form-checkbox layui-form-checked"><span>Brain_Region</span><i style="height: 30px;width: 34px" class="layui-icon layui-icon-ok"></i></div>
+                    <div class="layui-unselect layui-form-checkbox layui-form-checked"><span>Disease</span><i style="height: 30px;width: 34px" class="layui-icon layui-icon-ok"></i></div>
+                    <div class="layui-unselect layui-form-checkbox layui-form-checked"><span>Species</span><i style="height: 30px;width: 34px" class="layui-icon layui-icon-ok"></i></div>
+                    <div class="layui-unselect layui-form-checkbox layui-form-checked"><span>Method</span><i style="height: 30px;width: 34px" class="layui-icon layui-icon-ok"></i></div>
+                </div>
+            </div>
+		</div>
+
+		<div class="grid-btn">
+            <button type="button" class="layui-btn layui-btn-normal layui-btn-radius" @click="query">查询数据</button>
+            <button type="button" class="layui-btn layui-btn-warm layui-btn-radius" @click="exportCsv">导出表格</button>
+            <a type="button" class="layui-btn layui-btn-danger" href="plugin-snapshot.html"><i class="layui-icon">PPI</i></a>
+		</div>
+	    <table id="jqGrid"></table>
+	    <div id="jqGridPager"></div>
+    </div>
+
+	<div v-show="!showList" style="width: 1340px!important;" class="panel panel-default">
+		<div class="panel-heading">{{title}}</div>
+		<form class="form-horizontal">
+            <div class="form-group">
+			   	<div class="col-sm-2 control-label"></div>
+			   	<div class="col-sm-10">
+                    <input type="text" class="form-control" v-model="fullall.compartment" placeholder=""/>
+			    </div>
+			</div>
+            <div class="form-group">
+			   	<div class="col-sm-2 control-label"></div>
+			   	<div class="col-sm-10">
+			        <input type="text" class="form-control" v-model="fullall.humanentrez" placeholder=""/>
+			    </div>
+			</div>
+            <div class="form-group">
+			   	<div class="col-sm-2 control-label"></div>
+			   	<div class="col-sm-10">
+			        <input type="text" class="form-control" v-model="fullall.humanname" placeholder=""/>
+			    </div>
+			</div>
+            <div class="form-group">
+			   	<div class="col-sm-2 control-label"></div>
+			   	<div class="col-sm-10">
+			        <input type="text" class="form-control" v-model="fullall.mouseentrez" placeholder=""/>
+			    </div>
+			</div>
+									<div class="form-group">
+			   	<div class="col-sm-2 control-label"></div>
+			   	<div class="col-sm-10">
+			      <input type="text" class="form-control" v-model="fullall.mousename" placeholder=""/>
+			    </div>
+			</div>
+            <div class="form-group">
+			   	<div class="col-sm-2 control-label"></div>
+			   	<div class="col-sm-10">
+			        <input type="text" class="form-control" v-model="fullall.ratentrez" placeholder=""/>
+			    </div>
+			</div>
+            <div class="form-group">
+			   	<div class="col-sm-2 control-label"></div>
+			   	<div class="col-sm-10">
+			        <input type="text" class="form-control" v-model="fullall.ratname" placeholder=""/>
+			    </div>
+			</div>
+            <div class="form-group">
+			   	<div class="col-sm-2 control-label"></div>
+			   	<div class="col-sm-10">
+			        <input type="text" class="form-control" v-model="fullall.pmid" placeholder=""/>
+			    </div>
+			</div>
+            <div class="form-group">
+			   	<div class="col-sm-2 control-label"></div>
+			   	<div class="col-sm-10">
+			        <input type="text" class="form-control" v-model="fullall.year" placeholder=""/>
+			    </div>
+			</div>
+            <div class="form-group">
+			   	<div class="col-sm-2 control-label"></div>
+			   	<div class="col-sm-10">
+			        <input type="text" class="form-control" v-model="fullall.paper" placeholder=""/>
+			    </div>
+			</div>
+            <div class="form-group">
+			   	<div class="col-sm-2 control-label"></div>
+			   	<div class="col-sm-10">
+			        <input type="text" class="form-control" v-model="fullall.brainRegion" placeholder=""/>
+			    </div>
+			</div>
+            <div class="form-group">
+			   	<div class="col-sm-2 control-label"></div>
+			   	<div class="col-sm-10">
+			        <input type="text" class="form-control" v-model="fullall.disease" placeholder=""/>
+			    </div>
+			</div>
+            <div class="form-group">
+			   	<div class="col-sm-2 control-label"></div>
+			   	<div class="col-sm-10">
+			        <input type="text" class="form-control" v-model="fullall.species" placeholder=""/>
+			    </div>
+			</div>
+            <div class="form-group">
+			   	<div class="col-sm-2 control-label"></div>
+			   	<div class="col-sm-10">
+			        <input type="text" class="form-control" v-model="fullall.method" placeholder=""/>
+			    </div>
+			</div>
+            <div class="form-group">
+				<div class="col-sm-2 control-label"></div>
+			</div>
+		</form>
+	</div>
+</div>
+
+<script src="js/modules/sqlite/fullall.js"></script>
+</body>
+</html>

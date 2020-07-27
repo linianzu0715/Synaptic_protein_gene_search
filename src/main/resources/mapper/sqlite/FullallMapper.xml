@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.suke.czx.modules.sqlite.mapper.FullallMapper">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.suke.czx.modules.sqlite.entity.Fullall" id="FullallMap">
+        <result property="geneid" column="GeneID"/>
+        <result property="compartment" column="Compartment"/>
+        <result property="humanentrez" column="HumanEntrez"/>
+        <result property="humanname" column="HumanName"/>
+        <result property="mouseentrez" column="MouseEntrez"/>
+        <result property="mousename" column="MouseName"/>
+        <result property="ratentrez" column="RatEntrez"/>
+        <result property="ratname" column="RatName"/>
+        <result property="pmid" column="PMID"/>
+        <result property="year" column="Year"/>
+        <result property="paper" column="Paper"/>
+        <result property="brainRegion" column="Brain_Region"/>
+        <result property="disease" column="Disease"/>
+        <result property="species" column="Species"/>
+        <result property="method" column="Method"/>
+    </resultMap>
+
+</mapper>
