@@ -137,27 +137,51 @@ var vm = new Vue({
                     layer.alert("字段名填写错误");
                     return;
                 }
-                vm.sql += (i === 0?" where ":" or ") + item.substring(0, subNum) + " = " + "'" + item.substring(subNum + 1, item.length) + "'";
+                var orColumn = item.substring(subNum + 1, item.length).split(",");
+                // console.log(orColumn);
+                var orTemp = "";
+
+                var columnName = item.substring(0, subNum);
+
+                for (var j = 0; j < orColumn.length; j++) {
+                    if (j === orColumn.length - 1)
+                        orTemp += columnName + " = '" + orColumn[j] + "' ";
+                    else
+                        orTemp += columnName + " = '" + orColumn[j] + "' or ";
+                }
+
+                // vm.sql += (i === 0?" where ":" and ") + columnName + " = " + "'" + orTemp + "'";
+                vm.sql += (i === 0 ? " where " : " and ") + orTemp;
                 $("#sqlPreview").val(vm.sql);
             }
         },
+        // exportCsv: function (event) {
+        //     $.ajax({
+        //         type: "POST",
+        //         url: baseURL + "sqlite/fullall/export",
+        //         // contentType: "application/json",
+        //         // contentType: "application/csv;charset=UTF-8",
+        //         contentType: 'application/x-www-form-urlencoded;charset=UTF-8',
+        //         data: JSON.stringify({}),
+        //         success: function (r) {
+        //             if (r.code === 0) {
+        //                 alert(r.msg, function (index) {
+        //                     vm.reload();
+        //                 });
+        //             } else {
+        //                 alert(r.msg);
+        //             }
+        //         }
+        //     });
+        // },
+
         exportCsv: function (event) {
-            $.ajax({
-                type: "POST",
-                url: baseURL + "sqlite/fullall/export",
-                contentType: "application/json",
-                data: JSON.stringify({}),
-                success: function (r) {
-                    if (r.code === 0) {
-                        alert('操作成功', function (index) {
-                            vm.reload();
-                        });
-                    } else {
-                        alert(r.msg);
-                    }
-                }
-            });
+            location.href = baseURL + "sqlite/fullall/export" ;
+
+            // var url = "sqlite/fullall/export";
+            // window.open(url);
         },
+
         genPpi: function () {
             location.href = "modules/sqlite/plugin-snapshot.html";
         },
@@ -173,6 +197,7 @@ var vm = new Vue({
 
             var page = $("#jqGrid").jqGrid('getGridParam', 'page');
             $("#jqGrid").jqGrid('setGridParam', {
+                mtype: "POST",//post请求需要加
                 postData: {'sqlWhere': sqlWhere, 'showCol': "" + vm.showColStr},
                 page: page
             }).trigger("reloadGrid");

@@ -18,7 +18,7 @@ var url = function(name) {
 T.p = url;
 
 //请求前缀
-var baseURL = "http://localhost/";
+var baseURL = "http://39.106.204.52/";
 
 //登录token
 localStorage.setItem("token","6cd0336372d7480a9d67c825ced7ee3d");
@@ -34,7 +34,8 @@ $.ajaxSetup({
 	dataType: "json",
 	cache: false,
     headers: {
-        'Access-Control-Allow-Origin':'*',
+        // 'Access-Control-Allow-Origin':'*',
+        // 'Access-Control-Allow-Headers':"true",
         'token': "6cd0336372d7480a9d67c825ced7ee3d",
     },
     xhrFields: {
@@ -63,7 +64,8 @@ $.ajaxSetup({
 $.extend($.jgrid.defaults, {
     ajaxGridOptions : {
         headers: {
-            'Access-Control-Allow-Origin':"*",
+            // 'Access-Control-Allow-Origin':"*",
+            // 'Access-Control-Allow-Headers':"true",
             'token': token,
         }
     }

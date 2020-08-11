@@ -32,7 +32,7 @@
 			</div>
 			<div class="layui-form-item">
                 <div id="sql-div">
-                <input id="sqlInput" type="text" name="username" placeholder="请输入搜索条件,  示例: year:2002,  多个条件用逗号(;)分隔  示例: year:2002;mousename:Dlg4   条件为空可以在下方预览区自定义条件" autocomplete="off" class="layui-input"><br/>
+                <input id="sqlInput" type="text" name="username" placeholder="请输入搜索条件,  示例: year:2002,  多个字段用逗号(;)分隔 多个值用,分隔  示例: pmid:15447677,15169875;year:2004   条件为空可以在下方预览区自定义条件" autocomplete="off" class="layui-input"><br/>
                     <textarea id="sqlPreview" placeholder="SQL查询语句预览" class="layui-textarea" name="desc"></textarea>
                 </div>
                 <label class="layui-form-label"></label>
@@ -51,8 +51,13 @@
 
 		<div class="grid-btn">
             <button type="button" class="layui-btn layui-btn-normal layui-btn-radius" @click="query">查询数据</button>
-            <button type="button" class="layui-btn layui-btn-warm layui-btn-radius" @click="exportCsv">导出表格</button>
-            <a type="button" class="layui-btn layui-btn-danger" href="plugin-snapshot.html"><i class="layui-icon">PPI</i></a>
+            <!--<button type="button" class="layui-btn layui-btn-warm layui-btn-radius" @click="exportCsv">导出表格</button>-->
+            <a type="button" class="layui-btn layui-btn-warm layui-btn-radius" href="/sqlite/fullall/export">导出表格</a>
+			<!--<a v-if="hasPermission('sqlite:fullall:save')" class="btn btn-primary"  action="/sqlite/fullall/export"><i class="fa fa-plus"></i>&nbsp;导出</a>-->
+			<a type="button" class="layui-btn layui-btn-warm layui-btn-radius" href="/person/tbperson/exportPpi">导出有效AB点</a>
+			<a type="button" class="layui-btn layui-btn-danger" href="plugin-snapshot.html"><i class="layui-icon">PPI</i></a>
+			<!--<a type="button" class="layui-btn layui-btn-danger" href="plugin-snapshot.html"><i class="layui-icon">导出有效AB点</i></a>-->
+			<!--<a type="button" class="layui-btn layui-btn-danger" href="/sqlite/fullall/export"></a>-->
 		</div>
 	    <table id="jqGrid"></table>
 	    <div id="jqGridPager"></div>

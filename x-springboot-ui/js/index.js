@@ -47,7 +47,7 @@ var vm = new Vue({
             $.ajax({
                 type: "POST",
                 headers: {
-                    'Access-Control-Allow-Origin':'*'
+                    // 'Access-Control-Allow-Origin':'*'
                 },
                 url: baseURL + "sys/menu/nav",
                 dataType: "json",
