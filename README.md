@@ -40,23 +40,11 @@ In the final GUI page, there are a total of 2 pages and 9 parts.
 
 
 
-![Home_screen_print]()
-
-![Home_screen_print]()
-
-
-
 #### Use case 1
 
 Refer to the flow chart of use case 1, the first step is to open our GUI tool and then users input single keyword in the searching bar and click the "search" button. After that, the SQl command will be shown in block and records will be shown in table.
 
 The Figure show a example for this use case. We input "HumanEntrez:4905" in the search bar, where "HumanEntrez" is the key and "4905" is the value. We want to search records that their key for "HumanEntrez" is 4905. Then we click the search button. After that, the SQl command has been generated and records which value in "HumanEntrez" field is 4905 are returned.
-
-
-
-![Home_screen_print]()
-
-![Home_screen_print]()
 
 
 
@@ -68,23 +56,11 @@ The Figure show a example for this use case. We input HumanEntrez: 4905, 8927, 5
 
 
 
-![Home_screen_print]()
-
-![Home_screen_print]()
-
-
-
 #### Use case 3
 
 Refer to the flow chart of use case 3 shown in figure, the first step is to open the GUI tool and the second step is inputting value in the search bar. The third step is to choose the columns to be seen.  Then the fourth step is to click the button and fifth and the sixth step is to show SQL command and searching results.
 
 The figure show a example for the use case. We input "HumanEntrez:4905" in the search bar. "HumanEntrez" is the key and 4905 is value. We want to search for records that their key for "HumanEntrez" is 4905. Then we choose the columns to be seen. We click the "Compartment", "PMID", "year" and "paper" button to green and leave "Brain-region", "Disease", "Species" and "Method" button as grey. Then we click the search button. After that, the SQL command has been generated and records which value in "HumanEntrez" field is 4905 are returned. In the table, we can see that "Compartment", "PMID", "year" and "paper" field are shown and "Brain-region", "Disease", "Species" and "Method" field are hidden. 
-
-
-
-![Home_screen_print]()
-
-![Home_screen_print]()
 
 
 
@@ -96,23 +72,11 @@ The figure shows a example for the use case. We input "HumanEntrez:4905" in the 
 
 
 
-![Home_screen_print]()
-
-![Home_screen_print]()
-
-
-
 #### Use case 5
 
 Refer to the flow chart of use case 5 shown in figure, the first step is to open the GUI tool and the second step is input value in the search bar. Then the third step is to click the button and fourth and the fifth step is to show SQL command and searching results. The sixth step is to generate a PPI network
 
 Figure shows a example of the use case 6. We input "HumanEntrez:4905" in the search bar. "HumanEntrez" is the key and 4905 is value. We want to search for records that their key for "HumanEntrez" is 4905. Then we click the search button. After that, the SQL command has been generated and records which value in "HumanEntrez" field is 4905 are returned. After that, we click the "PPI" button to generate a PPI network shown in the Figure.
-
-
-
-![Home_screen_print]()
-
-![Home_screen_print]()
 
 
 
@@ -123,10 +87,6 @@ Refer to the flow chart of use case 6 shown in Figure, the first step is to open
 The Figure show a example for the use case. We input "HumanEntrez:4905" in the search bar. "HumanEntrez" is the key and 4905 is value. We want to search for records that their key for "HumanEntrez" is 4905. Then we click the search button. After that, the SQL command has been generated and records which value in "HumanEntrez" field is 4905 are returned. Then we click the "export AB" button to export information about the PPI network.
 
 
-
-![Home_screen_print]()
-
-![Home_screen_print]()
 
 
 
