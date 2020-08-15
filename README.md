@@ -5,6 +5,22 @@ In order to help our users more conveniently obtain the data of synaptic protein
 
 
 
+### Project file and folder introduction:
+
+* **.idea**: Intellij IDEA configuration files
+* **db**: Database used in project
+* **Server:** Softwares for server, include Nginx, redis.
+* **src**: Java code
+* **target**: Maven export files.
+* **.gitattributes**: Git file
+* **.gitignore**: Git file
+* **README.md**: readme file
+* **click_me.bat**: Project start up file
+* **pom.xml**: project configuration file
+* **x-springboot.jar**: Package file
+
+
+
 ### Online webpage：
 
 We provide a website to use our tools online. Because our database is now confidential, our website is temporarily closed and our data set is not public. Our data set will be released and made public in October 2020, after which we will open this website.
