@@ -31,14 +31,12 @@ http://synapticgenesearch.xyz
 
 ### Configuration procedure:
 
-1. Download the codes from our git page, it will be a zip files.
+1. Download the codes from our git page, it is a zip files.
 2. Unzip the zip file
-3. Find the "db.sql" file in "db" folder
+3. Find the "db.sql" file in "db" folder. 
 4. Copy the "db.sql" file and our sqlite data file (not publish now) to the D driver in your computer
 5. Execute the bat file "click_me_to_start.bat" to run the software, it will start some services required by the software.
 6. Open your web brower and enter "localhost" to open the GUI page of the tool.
-
-
 
 ### User manual：
 
@@ -58,49 +56,59 @@ In the final GUI page, there are a total of 2 pages and 9 parts.
 
 #### Use case 1
 
-Refer to the flow chart of use case 1, the first step is to open our GUI tool and then users input single keyword in the searching bar and click the "search" button. After that, the SQl command will be shown in block and records will be shown in table.
+Users may want to search a specific gene according to its gene name or its entrez ID. In this use case, user input a gene name or entrez ID in the search bar for query to get all available information about that specific gene name or entrez ID. The information include all papers where the gene was found, the brain region the gene was associated, the disease the gene was linked to and so on.
 
-The Figure show a example for this use case. We input "HumanEntrez:4905" in the search bar, where "HumanEntrez" is the key and "4905" is the value. We want to search records that their key for "HumanEntrez" is 4905. Then we click the search button. After that, the SQl command has been generated and records which value in "HumanEntrez" field is 4905 are returned.
+**Example:**
+
+"HumanEntrez:4905" is inputted in the search bar,  "HumanEntrez", "4905" are set as the key and the value. User proposes to search records with key for "HumanEntrez" is 4905. After clicking the search button, the SQL command has been generated and all information about the gene which value in the "HumanEntrez" field are 4905 are returned. 
 
 
 
 #### Use case 2
 
-Refer to the flow chart of use case 2, the first step is to open the GUI tool and the second step is to input multiple values in the search bar to search multiple genes or proteins. Then users click the button and fourth and the fifth step is to show SQL command and searching results.
+Users may want to search for multiple genes from their gene name or entrez ID in one time. In this use case, user input multiple gene names or entrez IDs in the search bar for query to get all available information about those gene names or entrez IDs. The information include all papers where the gene was found, the brain region the gene was associated, the disease the gene was linked to and so on.
 
-The Figure show a example for this use case. We input HumanEntrez: 4905, 8927, 5413 in the search bar. "HumanEntrez" is the key and 4905, 8927, and 5413 are values. We want to search for records that their key for "HumanEntrez" is 4905 or 8927 or 5413. Then we click the search button. After that, the SQL command has been generated and records which value in "HumanEntrez" field is 4905 or 8927 or 5413 are returned.
+**Example:**
 
-
+Some entrezs (4905, 8927, 5413) are inputted in the search bar for query. "HumanEntrez" is the key and 4905, 8927, and 5413 are values. We want to search for information about genes that their key for "HumanEntrez" is 4905 or 8927 or 5413. After clicking the search button, the SQL command has been generated and information about genes which value in the "HumanEntrez" field is 4905 or 8927 or 5413 are returned.
 
 #### Use case 3
 
-Refer to the flow chart of use case 3 shown in figure, the first step is to open the GUI tool and the second step is inputting value in the search bar. The third step is to choose the columns to be seen.  Then the fourth step is to click the button and fifth and the sixth step is to show SQL command and searching results.
+Users may just want to search for part of information they need and for other part of unnecessary information they may just want to hide it. In this use case, user input multiple gene names or entrez IDs in the search bar for query. User can choose columns that shown in the table. For example, user can choose to show the papers where the gene was found and hide the disease the gene was linked to. And then user can click the search button, so that selected columns for the information about the gene will be displayed. 
 
-The figure show a example for the use case. We input "HumanEntrez:4905" in the search bar. "HumanEntrez" is the key and 4905 is value. We want to search for records that their key for "HumanEntrez" is 4905. Then we choose the columns to be seen. We click the "Compartment", "PMID", "year" and "paper" button to green and leave "Brain-region", "Disease", "Species" and "Method" button as grey. Then we click the search button. After that, the SQL command has been generated and records which value in "HumanEntrez" field is 4905 are returned. In the table, we can see that "Compartment", "PMID", "year" and "paper" field are shown and "Brain-region", "Disease", "Species" and "Method" field are hidden. 
+**Example:**
+
+User input "HumanEntrez:4905" in the search bar. "HumanEntrez" is the key and 4905 is value. Aiming at searching for records that their key for "HumanEntrez" is 4905, then we choose the columns to be seen. After clicking the "Compartment", "PMID", "year" and "paper" button to green and leave ”Brain-region”, "Disease", "Species" and "Method" button as grey as well as the search button, the SQL command has been generated and records which value in "HumanEntrez" field is 4905 are returned. In the table, It can be seen that "Compartment", ”PMID”, "year" and "paper" field are shown and "Brain-region", "Disease", "Species" and "Method" field are hidden. 
 
 
 
 #### Use case 4
 
-Refer to the flow chart of use case 4, the first step is to open the GUI tool and the second step is input value in the search bar. Then the third step is to click the button and fourth and the fifth step is to show SQL command and searching results. The sixth step is to export the table as CSV file.
+Users may want to export the searching results that they obtain from the GUI tool. In this use case, user input gene name or entrez ID in the search bar for query. And then user can click the button to export queried information about genes as CSV file.
 
-The figure shows a example for the use case. We input "HumanEntrez:4905" in the search bar. "HumanEntrez" is the key and 4905 is value. We want to search for records that their key for "HumanEntrez" is 4905. Then we click the search button. After that, the SQL command has been generated and records which value in "HumanEntrez" field is 4905 are returned. After that, we click the "export table" button to export all records. The exported CSV file is shown in figure .
+**Example:**
+
+User input "HumanEntrez:8905" in the search bar with the key of  "HumanEntrez" and value of 8905, intending to search for records with the HumanEntrez as 8905. After clicking the search button, the SQL command has been generated and records which value in the "HumanEntrez" field is 8905 are returned. After that, we click the 'export table' button to export all records. 
 
 
 
 #### Use case 5
 
-Refer to the flow chart of use case 5 shown in figure, the first step is to open the GUI tool and the second step is input value in the search bar. Then the third step is to click the button and fourth and the fifth step is to show SQL command and searching results. The sixth step is to generate a PPI network
+Users may want to select specific set of genes to extract and plot the PPI network. The specific genes can be those from a specific paper, link with a specific disease and so on. In this use case, user input keywords and values in the search bar for query. And then user can click the button to generate PPI network from queried genes.
 
-Figure shows a example of the use case 6. We input "HumanEntrez:4905" in the search bar. "HumanEntrez" is the key and 4905 is value. We want to search for records that their key for "HumanEntrez" is 4905. Then we click the search button. After that, the SQL command has been generated and records which value in "HumanEntrez" field is 4905 are returned. After that, we click the "PPI" button to generate a PPI network shown in the Figure.
+**Example:**
+
+User input "Year:2000" in the search bar to search genes that published in 2000. After clicking the "search" button, all information about those genes published in 2000 are shown in the table. And then user click "PPI" button, browser will jump to PPI display page to show the PPI network generated from these genes.
 
 
 
 #### Use case 6
 
-Refer to the flow chart of use case 6 shown in Figure, the first step is to open the GUI tool and the second step is input value in the search bar. Then the third step is to click the button and the fourth and fifth step is to show SQL command and searching results. The sixth step is to generate a PPI network
+Users may want to export the information about the PPI network to visualize the PPI network by using other software. In this use case, user input keywords and values in the search bar for query. And then user can click the button to export information about PPI network as CSV file.
 
-The Figure show a example for the use case. We input "HumanEntrez:4905" in the search bar. "HumanEntrez" is the key and 4905 is value. We want to search for records that their key for "HumanEntrez" is 4905. Then we click the search button. After that, the SQL command has been generated and records which value in "HumanEntrez" field is 4905 are returned. Then we click the "export AB" button to export information about the PPI network.
+**Example:**
+
+Users input "Year:2000" in the search bar. "Year" is the key and 2000 is the value because the target searching genes are those published in 2000. Then we click the search button, the SQL command has been generated and records which value in "Year" field is 2000 are returned. clicking the "export AB" button to export information about the PPI network as a CSV file.
 
 
 
